@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Coffee Menu</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-image: url('darkbrown background plain.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            color: #f5efe6;
+        }
+
+        /* Dark coffee overlay */
+        .overlay {
+            background-color: rgba(40, 25, 15, 0.75);
+            min-height: 100vh;
+            padding: 40px;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        .header img {
+            width: 100px;
+            height: 100px;
+            margin-right: 15px;
+        }
+
+        .header h1 {
+            font-size: 44px;
+            margin: 0;
+            color: #f3d7b6;
+            letter-spacing: 1px;
+        }
+
+        /* Menu box */
+        .menu-section {
+            max-width: 700px;
+            margin: auto;
+            background: rgba(255, 248, 240, 0.95);
+            padding: 25px 30px;
+            border-radius: 18px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            margin-bottom: 35px;
+        }
+
+        .menu-title {
+            font-size: 28px;
+            font-weight: bold;
+            border-bottom: 2px solid #8B4513;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            color: #6b3e1e;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 12px 0;
+            font-size: 18px;
+            color: #3b2f2f;
+        }
+
+        td:last-child {
+            text-align: right;
+            font-weight: bold;
+            color: #8B4513;
+        }
+
+        tr:hover {
+            background-color: #f1e0cc;
+            border-radius: 8px;
+        }
+
+        /* Order button */
+        .order-btn {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .order-btn a {
+            text-decoration: none;
+            font-size: 22px;
+            color: #fff;
+            background: linear-gradient(45deg, #8B4513, #c26b32);
+            padding: 15px 40px;
+            border-radius: 35px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+            transition: 0.3s ease;
+        }
+
+        .order-btn a:hover {
+            background: linear-gradient(45deg, #c26b32, #8B4513);
+            transform: scale(1.08);
+        }
+    </style>
+</head>
+
+<body>
+<div class="overlay">
+
+    <!-- Header -->
+    <div class="header">
+        <img src="coffee logo.jpg" alt="Coffee Logo">
+        <h1>Our Coffee Menu</h1>
+    </div>
+
+    <!-- Hot Drinks -->
+    <div class="menu-section">
+        <div class="menu-title">☕ Hot Drinks (Tall)</div>
+        <table>
+            <tr><td>Brewed Coffee</td><td>P.100.00</td></tr>
+            <tr><td>Caffe Americano</td><td>P.110.00</td></tr>
+            <tr><td>Caffe Mocha</td><td>P.125.00</td></tr>
+            <tr><td>Cappuccino</td><td>P.150.00</td></tr>
+            <tr><td>Hot Chocolate</td><td>P.140.00</td></tr>
+            <tr><td>Mocha Blanco</td><td>P.150.00</td></tr>
+        </table>
+    </div>
+
+    <!-- Chillera -->
+    <div class="menu-section">
+        <div class="menu-title">🧊 Chillera (Tall)</div>
+        <table>
+            <tr><td>Iced Coffee</td><td>P.105.00</td></tr>
+            <tr><td>Iced Americano</td><td>P.130.00</td></tr>
+            <tr><td>Iced Caffe Mocha</td><td>P.145.00</td></tr>
+            <tr><td>Iced Cappuccino</td><td>P.150.00</td></tr>
+            <tr><td>Iced Chocolate</td><td>P.160.00</td></tr>
+            <tr><td>Iced Mocha</td><td>P.150.00</td></tr>
+        </table>
+    </div>
+
+    <!-- Blended -->
+    <div class="menu-section">
+        <div class="menu-title">🥤 Blended (Tall)</div>
+        <table>
+            <tr><td>Banana Caramel</td><td>P.195.00</td></tr>
+            <tr><td>Blended Caramel</td><td>P.170.00</td></tr>
+            <tr><td>Blended Mocha</td><td>P.185.00</td></tr>
+            <tr><td>Hazelnut</td><td>P.175.00</td></tr>
+            <tr><td>Java Chips</td><td>P.180.00</td></tr>
+        </table>
+    </div>
+
+    <!-- Order Button -->
+    <div class="order-btn">
+        <a href="order congirmation.html">Place Your Order</a>
+    </div>
+
+</div>
+</body>
+</html>
